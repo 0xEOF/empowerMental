@@ -50,7 +50,7 @@ export default function CalendlyModal({ isOpen, onClose }: CalendlyModalProps) {
           {/* DATA-URL = ACTUAL CALENDLY URL */}
           <div 
             className="calendly-inline-widget" 
-            data-url="https://calendly.com/dev20243535-blinkinbox/30min?month=2025-10E"
+            data-url="https://calendly.com/bcubalmhc"
             style={{minWidth: '320px', height: '700px'}}
           />
         </div>
