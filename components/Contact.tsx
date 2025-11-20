@@ -37,7 +37,7 @@ export default function Contact() {
               <Mail className="w-8 h-8 text-teal-600" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Email</h3>
-            <p className="text-gray-600">info@empowermental.com</p>
+            <p className="text-gray-600">bcuba@empowermentalwellness.net</p>
             <p className="text-sm text-gray-500 mt-1">24-hour response</p>
           </div>
 
@@ -64,14 +64,14 @@ export default function Contact() {
               <p className="font-semibold text-gray-900">Insurance Accepted</p>
               <p className="text-sm text-gray-600 mt-1">Most major plans</p>
             </div>
-            <div className="bg-white p-4 rounded-lg">
+            {/* <div className="bg-white p-4 rounded-lg">
               <p className="font-semibold text-gray-900">Sliding Scale</p>
               <p className="text-sm text-gray-600 mt-1">Limited availability</p>
             </div>
             <div className="bg-white p-4 rounded-lg">
               <p className="font-semibold text-gray-900">Self-Pay Options</p>
               <p className="text-sm text-gray-600 mt-1">Flexible plans</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

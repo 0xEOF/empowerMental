@@ -22,7 +22,7 @@ export default function Hero({ onBookClick }: HeroProps) {
                 className="w-14 h-14 mr-3"
               />
               <div>
-                <h1 className="text-5xl md:text-6xl font-bold text-gray-900">
+                <h1 className="text-5xl md:text-5xl font-bold text-gray-900">
                   EmpowerMENTAL
                 </h1>
                 <h2 className="text-3xl md:text-4xl font-light text-teal-600">
@@ -56,7 +56,7 @@ export default function Hero({ onBookClick }: HeroProps) {
           <div className="relative">
             <div className="relative h-96 md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1544027993-37dbfe43562a?w=600&h=800&fit=crop" 
+                src="/session.jpg" 
                 alt="Peaceful wellness setting"
                 className="w-full h-full object-cover"
               />

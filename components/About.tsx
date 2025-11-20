@@ -10,7 +10,7 @@ export default function About() {
     {
       icon: <Globe className="w-8 h-8" />,
       title: "Culturally Inclusive",
-      description: "International experience in Cuba, Costa Rica, Europe, and Scandinavia"
+      description: "Multi-cultural experience with diverse backgrounds."
     },
     {
       icon: <Heart className="w-8 h-8" />,
@@ -53,7 +53,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="/emw_desk.png" 
+              src="/Man-therapy.jpg" 
               alt="Compassionate therapy session"
               className="rounded-2xl shadow-xl"
             />
