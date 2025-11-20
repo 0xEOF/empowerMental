@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'EmpowerMENTAL Wellness | Licensed Mental Health Counselor & Life Coach',
-  description: 'Professional counseling and therapeutic support for individuals, teens, couples and families. Over 25 years of experience providing compassionate, evidence-based mental health services.',
+  description: 'Professional counseling and therapeutic support for individuals, teens, couples and families. Over 15 years of experience providing compassionate, evidence-based mental health services.',
   keywords: 'mental health counseling, life coach, therapy, CBT, DBT, mindfulness, couples therapy, individual therapy, teen therapy, Tampa Florida',
 }
 

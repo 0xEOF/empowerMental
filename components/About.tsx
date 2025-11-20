@@ -4,7 +4,7 @@ export default function About() {
   const highlights = [
     {
       icon: <Users className="w-8 h-8" />,
-      title: "25+ Years Experience",
+      title: "15+ Years Experience",
       description: "Dedicated service in schools, hospitals, community centers, and private practice"
     },
     {

@@ -52,7 +52,7 @@ export default function CounselorPage() {
             Meet Your Counselor
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-            Over 25 years of dedicated service to individuals, children, and families
+            Over 15 years of dedicated service to individuals, children, and families
           </p>
         </div>
       </section>
@@ -67,7 +67,7 @@ export default function CounselorPage() {
               </h2>
               <div className="prose prose-lg">
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  I am a Licensed Mental Health Counselor and Life Coach with over 25 years of dedicated 
+                  I am a Licensed Mental Health Counselor and Life Coach with over 15 years of dedicated 
                   service to individuals, children, and families. My experiences include working in schools, 
                   hospitals, community centers and private practice.
                 </p>
@@ -94,10 +94,10 @@ export default function CounselorPage() {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
+                {/* <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
                   <p className="text-sm text-gray-600 mb-1">Licensed Counselor</p>
-                  <p className="text-3xl font-bold text-teal-600">25+ Years</p>
-                </div>
+                  <p className="text-3xl font-bold text-teal-600">15+ Years</p>
+                </div> */}
               </div>
             </div>
           </div>

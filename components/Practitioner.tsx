@@ -47,7 +47,7 @@ export default function Practitioner({ onBookClick }: PractitionerProps) {
             Meet Your Counselor
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Over 25 years of dedicated service to individuals, children, and families
+            Over 15 years of dedicated service to individuals, children, and families
           </p>
         </div>
 
@@ -58,7 +58,7 @@ export default function Practitioner({ onBookClick }: PractitionerProps) {
                 Professional Background
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                As a Licensed Mental Health Counselor and Life Coach, I have dedicated over 25 years 
+                As a Licensed Mental Health Counselor and Life Coach, I have dedicated over 15 years 
                 to supporting individuals, children, and families through their unique journeys. My 
                 experiences span schools, hospitals, community centers, and private practice.
               </p>
@@ -92,7 +92,7 @@ export default function Practitioner({ onBookClick }: PractitionerProps) {
               </div>
               <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
                 <p className="text-sm text-gray-600 mb-1">Licensed Counselor</p>
-                <p className="text-2xl font-bold text-purple-600">25+ Years</p>
+                <p className="text-2xl font-bold text-purple-600">15+ Years</p>
               </div>
             </div>
           </div>

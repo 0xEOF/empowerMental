@@ -28,7 +28,7 @@ export default function Contact() {
               <Phone className="w-8 h-8 text-teal-600" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Phone</h3>
-            <p className="text-gray-600">(555) 123-4567</p>
+            <p className="text-gray-600">(813) 924-3681</p>
             <p className="text-sm text-gray-500 mt-1">Call or Text</p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* <div className="mt-16 max-w-3xl mx-auto bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-8 md:p-12">
+        <div className="mt-16 max-w-3xl mx-auto bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-8 md:p-12">
           <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
             Insurance & Payment
           </h3>
@@ -73,7 +73,7 @@ export default function Contact() {
               <p className="text-sm text-gray-600 mt-1">Flexible plans</p>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
     </section>
   )

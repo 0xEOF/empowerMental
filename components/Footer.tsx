@@ -61,11 +61,11 @@ export default function Footer() {
               </li>
               <li className="flex items-start">
                 <Phone className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
-                <span>(555) 123-4567</span>
+                <span>(813) 924-3681</span>
               </li>
               <li className="flex items-start">
                 <Mail className="w-5 h-5 mr-2 flex-shrink-0 mt-0.5" />
-                <span>info@empowermental.com</span>
+                <span>www.empowermentalwellness.net</span>
               </li>
             </ul>
           </div>
