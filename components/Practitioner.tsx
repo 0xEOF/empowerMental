@@ -58,7 +58,7 @@ export default function Practitioner({ onBookClick }: PractitionerProps) {
                 Professional Background
               </h3>
               <p className="text-gray-700 mb-6 leading-relaxed">
-                As a Licensed Mental Health Counselor and Life Coach, I have dedicated over 15 years 
+                As a Licensed Mental Health Counselor and Life Coach, I have dedicated many years 
                 to supporting individuals, children, and families through their unique journeys. My 
                 experiences span schools, hospitals, community centers, and private practice.
               </p>

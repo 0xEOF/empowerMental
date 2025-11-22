@@ -20,8 +20,8 @@ export default function Navigation({ onBookClick }: NavigationProps) {
             <Image 
               src="/logo.png" 
               alt="EmpowerMENTAL Wellness Logo" 
-              width={60} 
-              height={60}
+              width={100} 
+              height={100}
               className="w-10 h-10"
             />
             <div className="ml-3">

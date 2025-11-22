@@ -53,7 +53,7 @@ export default function About() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img 
-              src="/Man-therapy.jpg" 
+              src="/session.jpg" 
               alt="Compassionate therapy session"
               className="rounded-2xl shadow-xl"
             />

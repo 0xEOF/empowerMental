@@ -35,7 +35,7 @@ export default function Hero({ onBookClick }: HeroProps) {
             </p>
             <p className="text-xl text-gray-600 mb-8">
               Professional counseling and therapeutic support for individuals, teens, couples, 
-              and families. Over 15 years of compassionate, evidence-based care.
+              and families. Many years of compassionate, evidence-based care.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
@@ -56,7 +56,7 @@ export default function Hero({ onBookClick }: HeroProps) {
           <div className="relative">
             <div className="relative h-96 md:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/session.jpg" 
+                src="/hero-section.jpg" 
                 alt="Peaceful wellness setting"
                 className="w-full h-full object-cover"
               />

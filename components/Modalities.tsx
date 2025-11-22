@@ -18,6 +18,63 @@ export default function Modalities() {
     { name: "Energy Psychology Techniques", icon: <Zap className="w-6 h-6" /> }
   ]
 
+  const disorders = [
+    {
+      // icon: <Award className="w-6 h-6" />,
+      text: "Anxiety"
+    },
+    {
+      // icon: <GraduationCap className="w-6 h-6" />,
+      text: "Depression"
+    },
+    {
+      // icon: <Heart className="w-6 h-6" />,
+      text: "Certified Life Coach"
+    },
+    {
+      // icon: <Globe className="w-6 h-6" />,
+      text: "Coping skills"
+    },
+    {
+      // icon: <Globe className="w-6 h-6" />,
+      text: "ADHD",
+    },
+    {
+      // icon: <Globe className="w-6 h-6" />,
+      text: "Trauma & PTSD",
+    },
+    {
+      text: "Self-esteem"
+    },
+    {
+      text: "Couples counseling"
+    },
+    {
+      text: "Family conflict"
+    },
+    {
+      text: "Anger management"
+    },
+    {
+      text: "Grief"
+    },
+    {
+      text: "Life transitions"
+    },
+    {
+      text: "Women's issues"
+    },
+    {
+      text: "Mood disorders"
+    },
+    {
+      text: "Insomnia/sleep issues"
+    },
+    {
+      text: "Parenting"
+    }
+  ]
+
   return (
     <section id="modalities" className="py-20 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -56,6 +113,21 @@ export default function Modalities() {
           </div>
         </div>
       </div>
+
+      {/* Specializations */}
+          <div className="bg-white rounded-2xl p-8 md:p-12 shadow-xl mb-16">
+            <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+              Areas of Specialization
+            </h3>
+            <div className="grid md:grid-cols-3 gap-4">
+              {disorders.map((disorder, index) => (
+                <div key={index} className="flex items-start bg-gradient-to-br from-teal-50 to-cyan-50 p-6 rounded-xl">
+                  <p className="text-gray-800 font-medium">{disorder.text}</p>
+                </div>
+              ))}
+            </div>
+          </div>
     </section>
   )
+  
 }
