@@ -35,7 +35,7 @@ export default function Hero({ onBookClick }: HeroProps) {
             </p>
             <p className="text-xl text-gray-600 mb-8">
               Professional counseling and therapeutic support for individuals, teens, couples, 
-              and families. Many years of compassionate, evidence-based care.
+              and families. Bringing many years of compassionate, evidence-based support to every client.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <button 
@@ -62,7 +62,7 @@ export default function Hero({ onBookClick }: HeroProps) {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-teal-900/30 to-transparent"></div>
             </div>
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
+            {/* <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
               <div className="flex items-center">
                 <CalendarClock className="w-10 h-10 text-pink-500 mr-3" />
                 <div>
@@ -70,7 +70,7 @@ export default function Hero({ onBookClick }: HeroProps) {
                   <p className="text-sm text-gray-600">Years Experience</p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -28,10 +28,6 @@ export default function Modalities() {
       text: "Depression"
     },
     {
-      // icon: <Heart className="w-6 h-6" />,
-      text: "Certified Life Coach"
-    },
-    {
       // icon: <Globe className="w-6 h-6" />,
       text: "Coping skills"
     },

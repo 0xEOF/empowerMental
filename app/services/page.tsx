@@ -11,7 +11,8 @@ export default function ServicesPage() {
 
   const services = [
     {
-      icon: <User className="w-12 h-12" />,
+      // icon: <User className="w-12 h-12" />,
+      image: "/individual-therapy.jpg",
       title: "Individual Therapy",
       description: "Personalized support to help you overcome challenges, build resilience, and discover your authentic self through evidence-based therapeutic approaches.",
       benefits: [
@@ -24,7 +25,8 @@ export default function ServicesPage() {
       color: "from-teal-500 to-teal-600"
     },
     {
-      icon: <Heart className="w-12 h-12" />,
+      // 
+      image: "/womens.jpg",
       title: "Therapy for Women",
       description: "Specialized support addressing women's unique experiences including life transitions, relationships, self-esteem, and personal empowerment.",
       benefits: [
@@ -37,7 +39,8 @@ export default function ServicesPage() {
       color: "from-pink-500 to-pink-600"
     },
     {
-      icon: <Baby className="w-12 h-12" />,
+      // icon: <Baby className="w-12 h-12" />,
+      image: "/teen.jpg",
       title: "Therapy for Children and Teens",
       description: "Age-appropriate counseling helping young people navigate emotions, build coping skills, and develop healthy patterns for lifelong wellbeing.",
       benefits: [
@@ -50,7 +53,8 @@ export default function ServicesPage() {
       color: "from-cyan-500 to-cyan-600"
     },
     {
-      icon: <Users className="w-12 h-12" />,
+      // icon: <Users className="w-12 h-12" />,
+      image: "/couples.jpg",
       title: "Couples Therapy",
       description: "Strengthen your relationship through improved communication, conflict resolution, and deeper emotional connection with your partner.",
       benefits: [
@@ -63,7 +67,8 @@ export default function ServicesPage() {
       color: "from-indigo-500 to-indigo-600"
     },
     {
-      icon: <Compass className="w-12 h-12" />,
+      // icon: <Compass className="w-12 h-12" />,
+      image: "/coach.jpg",
       title: "Life Coaching",
       description: "Goal-oriented guidance to help you clarify your vision, overcome obstacles, and create actionable strategies for personal and professional growth.",
       benefits: [
@@ -102,50 +107,50 @@ export default function ServicesPage() {
 
       {/* Services Detail Section */}
       <section className="py-20 px-4">
-        <div className="max-w-7xl mx-auto space-y-16">
-          {services.map((service, index) => (
-            <div 
-              key={index}
-              className={`bg-white rounded-2xl shadow-xl overflow-hidden ${
-                index % 2 === 0 ? 'md:grid md:grid-cols-2' : 'md:grid md:grid-cols-2'
-              }`}
-            >
-              <div className={`bg-gradient-to-br ${service.color} p-12 text-white flex items-center justify-center ${
-                index % 2 === 1 ? 'md:order-2' : ''
-              }`}>
-                <div className="text-center">
-                  <div className="mb-6 inline-block">
-                    {service.icon}
-                  </div>
-                  <h2 className="text-3xl md:text-4xl font-bold">
-                    {service.title}
-                  </h2>
-                </div>
-              </div>
-              <div className="p-12">
-                <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                  {service.description}
-                </p>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">What to Expect:</h3>
-                <ul className="space-y-3 mb-8">
-                  {service.benefits.map((benefit, idx) => (
-                    <li key={idx} className="flex items-start">
-                      <CheckCircle className="w-5 h-5 text-teal-600 mr-3 mt-0.5 flex-shrink-0" />
-                      <span className="text-gray-700">{benefit}</span>
-                    </li>
-                  ))}
-                </ul>
-                <button 
-                  onClick={() => setShowCalendly(true)}
-                  className="w-full bg-teal-600 text-white px-6 py-3 rounded-full hover:bg-teal-700 transition font-medium"
-                >
-                  Book This Service
-                </button>
-              </div>
-            </div>
-          ))}
+  <div className="max-w-7xl mx-auto space-y-16">
+    {services.map((service, index) => (
+      <div 
+        key={index}
+        className={`bg-white rounded-2xl shadow-xl overflow-hidden ${
+          index % 2 === 0 ? 'md:grid md:grid-cols-2' : 'md:grid md:grid-cols-2'
+        }`}
+      >
+        <div className={`relative h-64 md:h-auto ${
+          index % 2 === 1 ? 'md:order-2' : ''
+        }`}>
+          <img 
+            src={service.image} 
+            alt={service.title}
+            className="w-full h-full object-cover"
+          />
         </div>
-      </section>
+        <div className="p-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+            {service.title}
+          </h2>
+          <p className="text-lg text-gray-700 mb-6 leading-relaxed">
+            {service.description}
+          </p>
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">What to Expect:</h3>
+          <ul className="space-y-3 mb-8">
+            {service.benefits.map((benefit, idx) => (
+              <li key={idx} className="flex items-start">
+                <CheckCircle className="w-5 h-5 text-teal-600 mr-3 mt-0.5 flex-shrink-0" />
+                <span className="text-gray-700">{benefit}</span>
+              </li>
+            ))}
+          </ul>
+          <button 
+            onClick={() => setShowCalendly(true)}
+            className="w-full bg-teal-600 text-white px-6 py-3 rounded-full hover:bg-teal-700 transition font-medium"
+          >
+            Book This Service
+          </button>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
 
       {/* CTA Section */}
       <section className="relative py-20 px-4 text-white overflow-hidden">

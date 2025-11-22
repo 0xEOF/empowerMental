@@ -19,7 +19,7 @@ export default function Contact() {
               <MapPin className="w-8 h-8 text-teal-600" />
             </div>
             <h3 className="font-semibold text-gray-900 mb-2">Location</h3>
-            <p className="text-gray-600">Tampa, Florida</p>
+            <p className="text-gray-600">100 South Ashley Drive, Suite 600, Tampa, FL 33602</p>
             <p className="text-sm text-gray-500 mt-1">In-person & Online Sessions</p>
           </div>
 
@@ -52,28 +52,29 @@ export default function Contact() {
         </div>
 
         <div className="mt-16 max-w-3xl mx-auto bg-gradient-to-br from-teal-50 to-cyan-50 rounded-2xl p-8 md:p-12">
-          <h3 className="text-2xl font-bold text-gray-900 mb-4 text-center">
-            Insurance & Payment
-          </h3>
-          <p className="text-gray-700 text-center mb-6">
-            We accept most major insurance plans and offer flexible payment options. 
-            Contact us to verify your coverage and discuss payment arrangements.
-          </p>
-          <div className="grid md:grid-cols-3 gap-4 text-center">
-            <div className="bg-white p-4 rounded-lg">
-              <p className="font-semibold text-gray-900">Insurance Accepted</p>
-              <p className="text-sm text-gray-600 mt-1">Most major plans</p>
-            </div>
-            {/* <div className="bg-white p-4 rounded-lg">
-              <p className="font-semibold text-gray-900">Sliding Scale</p>
-              <p className="text-sm text-gray-600 mt-1">Limited availability</p>
-            </div>
-            <div className="bg-white p-4 rounded-lg">
-              <p className="font-semibold text-gray-900">Self-Pay Options</p>
-              <p className="text-sm text-gray-600 mt-1">Flexible plans</p>
-            </div> */}
-          </div>
-        </div>
+  <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
+    Insurance & Payment
+  </h3>
+  
+  <div className="space-y-6">
+    <div>
+      <h4 className="font-semibold text-gray-900 mb-2">Accepted Insurance Plans</h4>
+      <p className="text-gray-700">
+        I accept most major insurance plans, including Aetna, Cigna, and United Healthcare, as well as Medicare. Prior to your first appointment, I recommend verifying your coverage for mental health services with your insurance provider.
+      </p>
+      <br></br>
+      <p className="text-gray-700">
+        We also offer custom life-coaching packages.
+      </p>
+    </div>
+    <div>
+      <h4 className="font-semibold text-gray-900 mb-2">Insurance Questions?</h4>
+      <p className="text-gray-700">
+        If you have questions about whether your insurance will cover our sessions or if you need assistance navigating the insurance process, please don't hesitate to contact me.
+      </p>
+    </div>
+  </div>
+</div>
       </div>
     </section>
   )

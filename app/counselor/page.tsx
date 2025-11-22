@@ -96,7 +96,7 @@ export default function CounselorPage() {
                 </div>
                 {/* <div className="absolute -bottom-6 -right-6 bg-white p-6 rounded-xl shadow-xl">
                   <p className="text-sm text-gray-600 mb-1">Licensed Counselor</p>
-                  <p className="text-3xl font-bold text-teal-600">15+ Years</p>
+                  <p className="text-3xl font-bold text-teal-600">10+ Years</p>
                 </div> */}
               </div>
             </div>
