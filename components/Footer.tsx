@@ -74,7 +74,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8">
           <div className="text-center text-gray-400">
-            <p className="mb-2">&copy; 2025 EmpowerMENTAL Wellness. All rights reserved.</p>
+            <p className="mb-2">&copy; 2025 EmpowerMENTAL Wellness LLC. All rights reserved.</p>
             <p className="text-sm">Licensed Mental Health Counselor | Professional Life Coach</p>
           </div>
         </div>

@@ -47,7 +47,7 @@ export default function Practitioner({ onBookClick }: PractitionerProps) {
             Meet Your Counselor
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Over 15 years of dedicated service to individuals, children, and families
+            Over 10 years of dedicated service to individuals, children, and families
           </p>
         </div>
 

@@ -51,9 +51,6 @@ export default function CounselorPage() {
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Meet Your Counselor
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
-             years of dedicated service to individuals, children, and families
-          </p>
         </div>
       </section>
 
